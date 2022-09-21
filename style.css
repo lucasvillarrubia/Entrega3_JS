@@ -68,15 +68,6 @@ h1 {
   padding-left: 5px;
 }
 
-input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-}
-
-.form__input::placeholder {
-  color: #808080;
-  font-size: 0.9rem;
-}
-
 .input-container img {
   width: 34px;
   background-color: #3b3b3b;
@@ -85,10 +76,10 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .form__btn {
-  background: green;
+  background: rgb(238, 232, 156);
   padding: 10px 80px;
   border-radius: 8px;
-  color: rgb(226, 226, 226);
+  color: black;
   font-weight: 600;
   font-size: 13px;
   cursor: pointer;
@@ -110,6 +101,11 @@ input[type="number"]::-webkit-inner-spin-button {
   margin: 3rem;
   padding: 3rem;
   max-width: 700px;
+}
+
+.img_pizza {
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .error,
